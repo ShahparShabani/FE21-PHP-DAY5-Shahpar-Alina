@@ -96,6 +96,10 @@ if (isset($_POST['btn-signup'])) {
             $errTyp = "success";
             $errMSG = "Successfully registered, you may login now";
             $uploadError = ($picture->error != 0) ? $picture->ErrorMessage : '';
+            // Set all fields to empty
+            $fname = $lname = $email = $date_of_birth = $pass = $picture = '';
+            // unset($fname);
+            // unset($lname);
 
         } else {
             $errTyp = "danger";

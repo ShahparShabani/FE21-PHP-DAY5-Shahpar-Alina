@@ -48,7 +48,7 @@ mysqli_close($connect);
     <style type="text/css">
         .navbar-light {
             background-color: #2b7de2;
-            color: white;
+            /* color: white; */
         }
 
         .manageUser {
