@@ -1,4 +1,5 @@
 <?php
+session_start();
 require_once 'components/db_connect.php';
 
 // if session is not set this will redirect to login page
